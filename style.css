@@ -1,1 +1,196 @@
-/* CSS code goes here */
+.header-23-sub-mp .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 20;
+    filter: alpha(opacity=2000);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.header-23-sub-mp .hero-bg-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-23-sub-mp #bgVideo {
+    overflow: hidden;
+}
+
+.header-23-sub-mp #bgVideo > video {
+	position: absolute !important;
+}
+
+.header-23-sub-mp {
+  z-index: 50;
+  left: 0;
+  width: 100%;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 270px;
+  color: white;
+  text-align: center;
+  background: #1b1e21;
+}
+
+@media (max-width: 991px) {
+  .header-23-sub-mp {
+    padding-top: 260px;
+    padding-bottom: 170px;
+  }
+}
+
+.header-23-sub-mp .hero-unit {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+
+.header-23-sub-mp .hero-unit strong {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+@media (max-width: 991px) {
+  .header-23-sub-mp .hero-unit strong {
+    display: block;
+  }
+}
+
+.header-23-sub-mp .hero-unit span {
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .header-23-sub-mp .hero-unit span {
+    display: block;
+  }
+}
+
+.header-23-sub-mp .hero-unit .btn-play {
+  display: inline-block;
+  text-indent: -9999px;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 67px;
+  height: 67px;
+  margin: 0 50px;
+  outline: none;
+  background: url({{ module_asset_url("btn-play.png") }}) no-repeat;
+}
+
+@media (max-width: 991px) {
+  .header-23-sub-mp .hero-unit .btn-play {
+    margin: 35px 0;
+  }
+}
+
+.header-23-sub-mp .background {
+  opacity: 10;
+  filter: alpha(opacity=1000);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+
+
+.header-23-sub-mp {
+    padding-top: 290px;
+}
+
+.header-23-sub-mp .wistia_responsive_padding {
+    width: 167px;
+    height: 67px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+}
+
+.header-23-sub-mp #bgVideo .background-video-inner{
+    position: relative;
+    height: 100%;
+    pointer-events: none;
+}
+
+.header-23-sub-mp #bgVideo .background-video-inner iframe,
+.header-23-sub-mp #bgVideo .background-video-inner .wistia_embed{
+    pointer-events: none;
+    width: 100% !important;
+    height: auto !important;
+    min-width: 1366px;
+    top: -99999px;
+    position: absolute !important;
+    bottom: -99999px;
+    left: -99999px;
+    right: -99999px;
+    margin: auto;
+}
+
+.header-23-sub-mp #bgVideo .background-video-inner iframe {
+    height: 100% !important;
+}
+
+.header-23-sub-mp .hero-unit .left-text, .header-23-sub-mp .hero-unit .right-text {
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header-23-sub-mp .hero-unit .left-text { text-align: right; }
+
+.header-23-sub-mp .hero-unit .right-text { text-align: left; }
+
+.mfp-close-btn-in.header-23-popup .mfp-close, .mfp-close-btn-in.header-23-popup .mfp-close:active {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 50px;
+    padding-right: 0;
+}
+
+
+@media (max-width: 991px) {
+    .header-23-sub-mp {
+        padding-top: 190px;
+    }
+    
+    .header-23-sub-mp .wistia_responsive_padding {
+        height: 125px;
+    }
+    
+    .header-23-sub-mp .hero-unit .left-text, .header-23-sub-mp .hero-unit .right-text {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-23-sub-mp #bgVideo .background-video-inner {
+        display: none;
+    }
+    
+    .header-23-sub-mp .hero-unit .left-text, .header-23-sub-mp .hero-unit .right-text {
+        max-width: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+.header-23-sub-mp .background {
+	z-index: -1;
+}
