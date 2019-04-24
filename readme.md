@@ -10,6 +10,12 @@ Choose any video from YouTube, Wistia and Vimeo and use the power of video on yo
 
 ---
 
+The Hero Video header module demo can be visited here:
+
+https://w.inboundlabs.co/hero-video-header-module-demo
+
+---
+
 The Hero Video header module is part of the Startup Framework template which can be found here:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
