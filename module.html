@@ -1,1 +1,25 @@
-<!-- HTML & HubL code goes here -->
+<header class="header-23 header-23-v2" style="display: none;"></header>
+<section class="header-23-sub header-23-sub-v2 header-23-sub-mp {% if module.enable_menu %}has-menu{% endif %}" style="background-color: {{ module.background_color }};">
+    <div class="background" id="bgVideo" style="background-image: url('{{ module.background_image.src }}'); opacity: {{ module.background_opacity }};">
+        {% if module.wistia_background_video_id %}
+        <div class="background-video-inner">
+            <a class="oembed oembed-bg-video" href="{{ module.wistia_background_video_id }}"></a>
+        </div>
+        {% endif %}
+    </div>
+    <div class="hero-bg-container">
+      <div class="hero-unit">
+        <strong class="left-text" style="color: {{ module.left_text_color }};">{{ module.left_text }}</strong> 
+
+        {% if module.wistia_video_id %}
+        <div class="wistia_responsive_padding" style="position:relative; display: inline-block;">
+          <div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top :0; width: 100%;">
+            <span class="wistia_embed" style="display:inline-block;height:100%;width:100%"><a class="btn-play header-23-play" href="{{ module.wistia_video_id }}">Play</a></span>
+          </div>
+        </div>
+        {% endif %}
+
+        <span class="right-text" style="color: {{ module.right_text_color }};">{{ module.right_text }}</span>
+      </div>
+    </div>
+</section>
