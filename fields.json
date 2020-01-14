@@ -1,0 +1,107 @@
+[ {
+  "id" : "80c0f09c-c04c-c378-1974-365e744a4fc9",
+  "name" : "background_color",
+  "label" : "Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : "#2c3e50"
+}, {
+  "id" : "8ac71dd3-0645-1187-e1b5-bc0abe58d99f",
+  "name" : "wistia_background_video_id",
+  "label" : "Background video URL (Wistia, YouTube and Vimeo)",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "https://inboundlabs.wistia.com/medias/4kbn17u5dh"
+}, {
+  "id" : "215a0579-3b76-780f-c8d5-43e8e4fcfc52",
+  "name" : "background_image",
+  "label" : "Background Image",
+  "help_text" : "Will only show only on mobile or if there's no Wistia Background Video",
+  "required" : false,
+  "locked" : false,
+  "responsive" : false,
+  "resizable" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "http://cdn2.hubspot.net/hubfs/346178/designmodo/common-files/img/header/img-video.jpg",
+    "alt" : "img-video.jpg",
+    "width" : "1200",
+    "height" : "673"
+  }
+}, {
+  "id" : "1cf0d3c2-4a75-ca20-20bb-ebfa397b85a6",
+  "name" : "background_opacity",
+  "label" : "Background Opacity",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "placeholder" : "Search",
+  "choices" : [ [ "0", "0%" ], [ "0.1", "10%" ], [ "0.2", "20%" ], [ "0.3", "30%" ], [ "0.4", "40%" ], [ "0.5", "50%" ], [ "0.6", "60%" ], [ "0.7", "70%" ], [ "0.8", "80%" ], [ "0.9", "90%" ], [ "1", "100%" ] ],
+  "type" : "choice",
+  "default" : "0.1"
+}, {
+  "id" : "91af94c3-d058-6387-064a-0d42215cecc5",
+  "name" : "video_popup",
+  "label" : "Video Popup",
+  "required" : false,
+  "locked" : false,
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "5930637e-840a-bddf-da36-2ca937691066",
+  "name" : "wistia_video_id",
+  "label" : "Video URL (Wistia, YouTube and Vimeo)",
+  "help_text" : "Youtube must be: http://www.youtube.com/watch?v=[...]",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "https://inboundlabs.wistia.com/medias/4kbn17u5dh"
+}, {
+  "id" : "52125730-2349-02d7-ea00-487c9a2c2d13",
+  "name" : "left_text",
+  "label" : "Left Text",
+  "help_text" : "",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "The Startup Framework"
+}, {
+  "id" : "0adf77cc-dd37-9a69-c2ed-04e91bc27925",
+  "name" : "left_text_color",
+  "label" : "Left Text Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : "#ffffff"
+}, {
+  "id" : "fbaa776c-0ff3-049a-8c01-e6482df5f514",
+  "name" : "right_text",
+  "label" : "Right Text",
+  "help_text" : "",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Now on Hubspot"
+}, {
+  "id" : "033689e8-3d73-41d2-1717-351dcfabc60e",
+  "name" : "right_text_color",
+  "label" : "Right Text Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : "#ffffff"
+} ]

@@ -1,0 +1,46 @@
+{
+  "content_tags" : [ ],
+  "css_assets" : [ {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/designmodo/vendor/jquery-oembed-all/jquery.oembed.css",
+    "name" : "jquery.oembed.css",
+    "autoload" : true
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/magnific-popup.min.css",
+    "name" : "magnific-popup.min.css",
+    "autoload" : true
+  } ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "js_assets" : [ {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/minified/jquery.oembed.min.js",
+    "name" : "jquery.oembed.min.js",
+    "autoload" : true
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/jquery.magnific-popup.min.js",
+    "name" : "jquery.magnific-popup.min.js",
+    "autoload" : true
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/minified/video.min.js",
+    "name" : "video.min.js",
+    "autoload" : true
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/hero-video-deps.min.js",
+    "name" : "hero-video-deps.min.js",
+    "autoload" : true
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/minified/hero-video-startup-kit-v2.min.js",
+    "name" : "hero-video-startup-kit-v2.min.js",
+    "autoload" : true
+  } ],
+  "other_assets" : [ {
+    "resource_id" : null,
+    "url" : "https://cdn2.hubspot.net/hubfs/346178/SUF%20Mar%202018/btn-play.png",
+    "name" : "btn-play.png",
+    "autoload" : false
+  } ],
+  "smart_type" : "NOT_SMART",
+  "module_id" : 2780020,
+  "is_available_for_new_content" : true
+}
